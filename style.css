@@ -1,0 +1,60 @@
+*{
+    box-sizing:border-box;
+    font-family: cursive;
+}
+    h1{
+        text-align: center;
+        font-size: xx-large;
+        font-size: 1.75em;
+    } 
+    body{
+        padding: 0%;
+        margin: 0%;
+    }   
+    .section{
+      background-color: blueviolet;
+      float:left;
+      width:97%;
+      height: 250px;
+      margin:5px;
+      padding:40px;
+      border: solid black 1px;
+      overflow: auto;
+      position: relative;
+    }
+
+    @media (min-width:992px){
+      .section{
+        width:32%;
+      float:left;
+      }
+      
+    }
+@media(max-width:991px) and (min-width:768px){
+    .section {
+        width:48%;
+        float:left;
+    }
+    .section:nth-child(3) {
+        width:97%;
+        clear:both;
+    }
+  }
+
+h2{
+    position:absolute;
+    top:0;
+    right: 0;
+    background-color: aquamarine;
+    padding-top:20px;
+    border:1px solid black;
+    margin:0px;
+    font-size: 1.25em;
+}
+.title1{
+    background-color: beige;
+}
+.title2{
+    background-color: brown;
+}
+
